@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ProductsComponent } from "../products/products.component";
+import { ProductsComponent } from "../shared/products/products.component";
 
 @Component({
   selector: 'app-menu',
