@@ -12,8 +12,7 @@ import { FooterComponent } from "./Components/shared/footer/footer.component";
     RouterOutlet,
     HeaderComponent,
     MenuComponent,
-    CommonModule,
-    FooterComponent
+    FooterComponent,
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
