@@ -4,6 +4,7 @@ import { HeaderComponent } from './Components/shared/header/header.component';
 import { MenuComponent } from './Components/menu/menu.component';
 import { CommonModule } from '@angular/common';
 import { FooterComponent } from "./Components/shared/footer/footer.component";
+import { BebidasComponent } from './Components/shared/products/bebidas/bebidas.component';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +13,7 @@ import { FooterComponent } from "./Components/shared/footer/footer.component";
     RouterOutlet,
     HeaderComponent,
     MenuComponent,
-    FooterComponent,
+    FooterComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
