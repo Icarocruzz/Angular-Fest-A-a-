@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { Product } from '../../../../models/Product';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-bebidas',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './bebidas.component.html',
   styleUrl: './bebidas.component.scss'
 })
