@@ -7,9 +7,8 @@ import { BebidasComponent } from './bebidas/bebidas.component';
   selector: 'app-products',
   standalone: true,
   imports: [
-    CommonModule,
-    BebidasComponent
-  ],
+    CommonModule
+],
   templateUrl: './products.component.html',
   styleUrl: './products.component.scss'
 })
